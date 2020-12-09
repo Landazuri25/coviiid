@@ -1,0 +1,93 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: black;
+}
+
+body .inicio{
+    background-color: white;
+    width: 90%;
+    height: auto;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 0 auto;
+    margin-top: 10%;
+}
+
+body .inicio .header{
+    height: 40px;
+    background-color: azure;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+body .inicio .header h3{
+    float: left;
+}
+
+body .inicio .header button{
+    float:right;
+    margin: 3px;
+    width: 110px;
+    height: 30px;
+    padding: 5px;
+}
+
+body .inicio .modify-info h3{
+    text-align: center;
+}
+
+body .inicio .modify-info label{
+    text-align: center;
+    display: block;
+}
+
+body .inicio .modify-info input{
+    margin: 0 auto;
+    display: block;
+    margin-bottom: 5px;
+}
+
+body .inicio .modify-info button{
+    margin: 0 auto;
+    display: block;
+}
+
+/* MODIFICAR STATUS ADMIN */
+
+
+body .inicio .modify-status button{
+    margin: 0 auto;
+    display: block;
+}
+
+/* Modificar reporte */
+
+body .inicio .edit-report h3{
+    text-align: center;
+}
+
+body .inicio .edit-report form label{
+    text-align: center;
+    display: block;
+}
+
+body .inicio .edit-report form input{
+    margin: 0 auto;
+    display: block;
+    margin-bottom: 5px;
+}
+
+body .inicio .edit-report form textarea{
+    margin: 0 auto;
+    display: block;
+    margin-bottom: 5px;
+}
+
+body .inicio .edit-report form button{
+    margin: 0 auto;
+    display: block;
+}

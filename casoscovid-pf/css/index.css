@@ -1,0 +1,72 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: black;
+}
+
+body .inicio{
+    background-color: white;
+    width: 90%;
+    height: auto;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 0 auto;
+    margin-top: 10%;
+}
+
+body .inicio .header{
+    height: 40px;
+    background-color: azure;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+body .inicio .header h3{
+    float: left;
+}
+
+body .inicio .header button{
+    float:right;
+    margin: 3px;
+    width: 110px;
+    height: 30px;
+    padding: 5px;
+}
+
+body .inicio .create-report-btn{
+    padding: 5px;
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+body .inicio .reports table{
+    background-color:antiquewhite;
+    border-radius: 3px;
+    padding: 5px;
+    width: 100%;
+    text-align: left;
+}
+
+
+body .inicio .reports .search{
+    width: 100%;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+body .inicio .reports .search p{
+    float: left;
+    margin-right: 3px;
+}
+
+body .inicio .reports .search select{
+    float: left;
+    margin-right: 10px;
+}
